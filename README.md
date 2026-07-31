@@ -97,12 +97,6 @@ This allows the user to identify the most important markets and compare their co
 
 The project follows a simple star-schema approach, separating transactional data from the date dimension.
 
-Main components include:
-
-- Fact_Sales
-- Dim_Date
-
-The date dimension is used to enable time-based analysis and Year-over-Year comparisons.
 
 ## Key Measures
 
