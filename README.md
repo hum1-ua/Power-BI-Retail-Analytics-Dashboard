@@ -1,9 +1,7 @@
 # Power BI Retail Analytics Dashboard
-
-## Overview
-
 <img width="1668" height="946" alt="geographic_analytics" src="https://github.com/user-attachments/assets/28f6dc84-32c4-4384-ac85-b074b8f930ec" />
 
+## Overview
 This project is an interactive business intelligence dashboard developed with Microsoft Power BI to analyse sales, customers, products and geographical performance in an online retail business.
 
 The main objective of the project was to learn how to transform raw transactional data into meaningful business insights and develop a dashboard that could support data-driven decision-making.
