@@ -1,5 +1,4 @@
 # Power BI Retail Analytics Dashboard
-<img width="1668" height="946" alt="geographic_analytics" src="https://github.com/user-attachments/assets/28f6dc84-32c4-4384-ac85-b074b8f930ec" />
 
 ## Overview
 This project is an interactive business intelligence dashboard developed with Microsoft Power BI to analyse sales, customers, products and geographical performance in an online retail business.
@@ -10,7 +9,6 @@ The project uses the Online Retail II dataset, containing transactional data fro
 https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
 ## Project Objectives
-
 The dashboard was designed to answer key business questions such as:
 
 - How are sales performing compared with the previous year?
@@ -28,6 +26,7 @@ The dashboard was designed to answer key business questions such as:
 The report is divided into four analytical areas.
 
 ### 1. Executive Summary
+![Executive Summary](pages/executive_summary-1.png)
 
 Provides a high-level overview of business performance through:
 
@@ -41,7 +40,7 @@ Provides a high-level overview of business performance through:
 This page is designed to provide management with a quick overview of the company's performance.
 
 ### 2. Customer Analytics
-
+![Product and Sales](/pages/customer_analytics-1.png)
 Focuses on customer behaviour and value.
 
 It includes:
@@ -63,7 +62,7 @@ The RFM segmentation helps classify customers according to:
 Customer groups include Champions, Loyal Customers, Potential Loyalists, New Customers, At Risk, Hibernating and other segments.
 
 ### 3. Product & Sales Analytics
-
+![Product and Sales](/pages/product_analytics-1.png)
 Analyses product performance and sales quality.
 
 The page includes:
@@ -78,6 +77,7 @@ The page includes:
 This section helps identify high-performing products while also providing visibility into returns and shipping-related costs.
 
 ### 4. Geographic & Market Analytics
+![Product and Sales](/pages/geographic_analytics.png)
 
 Provides a geographical view of the business.
 
@@ -94,15 +94,9 @@ It includes:
 This allows the user to identify the most important markets and compare their commercial performance.
 
 ## Data Model
-
+![Product and Sales](/pages/model.png)
 The project follows a simple star-schema approach, separating transactional data from the date dimension.
 
-Main components include:
-
-- Fact_Sales
-- Dim_Date
-
-The date dimension is used to enable time-based analysis and Year-over-Year comparisons.
 
 ## Key Measures
 
@@ -130,3 +124,24 @@ SUMX(
     'Fact_Sales',
     'Fact_Sales'[Quantity] * 'Fact_Sales'[Price]
 )
+```
+## Key Insights
+
+### Executive Summary
+- Sales dropped 3.4% YoY while orders fell more sharply (-12.9%), but Average Order Value rose 8.9%. This suggests the business is retaining fewer customers, but each purchase carries more value — pointing toward a retention-focused strategy rather than pure acquisition.
+- December shows a sharp drop compared to November, but this reflects an incomplete month in the dataset (data ends 09/12/2011), not an actual demand collapse.
+
+### Customer Analytics
+- 68.9% of customers are recurrent, a strong retention rate for an online retail business.
+- "Champions" is the largest segment (22.55%), but "Hibernating," "At Risk," and "Can't Lose Them" together account for almost 40% of the customer base — a clear opportunity for win-back campaigns.
+- The Orders vs Sales scatter plot shows a small group of high-order customers driving disproportionately high revenue, likely wholesale or B2B buyers rather than typical end consumers.
+
+### Product & Sales Analytics
+- The order return rate (22%) is far higher than the revenue return rate (7.34%), indicating that returns are concentrated in low-value orders rather than high-value purchases.
+- Shipping charges represent only 2.23% of total sales, a relatively low operating cost.
+- The Product Volume vs Revenue scatter shows a classic long-tail pattern: most products cluster in low volume/low revenue, while a handful of high-volume products drive a disproportionate share of income.
+
+### Geographic & Market Analytics
+- The United Kingdom dominates the business, accounting for the vast majority of sales and active customers — expected for a UK-based retailer, but it also signals a concentration risk.
+- Outside the UK, countries like the Netherlands, Australia, and Denmark show the highest Average Order Value (>$1,600), suggesting large but infrequent orders — likely wholesale/distributor buyers rather than individual consumers.
+- International sales represent 15.1% of total revenue across 43 countries, showing wide geographic reach but shallow penetration outside the domestic market.
