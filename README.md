@@ -1,3 +1,4 @@
+<img width="1668" height="946" alt="geographic_analytics" src="https://github.com/user-attachments/assets/28f6dc84-32c4-4384-ac85-b074b8f930ec" />
 # Power BI Retail Analytics Dashboard
 
 ## Overview
