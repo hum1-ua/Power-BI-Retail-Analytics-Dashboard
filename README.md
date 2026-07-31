@@ -77,6 +77,7 @@ The page includes:
 This section helps identify high-performing products while also providing visibility into returns and shipping-related costs.
 
 ### 4. Geographic & Market Analytics
+![Product and Sales](/pages/geographic_analytics.png)
 
 Provides a geographical view of the business.
 
