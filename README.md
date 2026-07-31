@@ -62,7 +62,7 @@ The RFM segmentation helps classify customers according to:
 Customer groups include Champions, Loyal Customers, Potential Loyalists, New Customers, At Risk, Hibernating and other segments.
 
 ### 3. Product & Sales Analytics
-
+![Product and Sales](/pages/product_analytics.png)
 Analyses product performance and sales quality.
 
 The page includes:
