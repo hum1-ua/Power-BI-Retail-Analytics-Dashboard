@@ -2,6 +2,8 @@
 
 ## Overview
 
+[customer_analytics.pdf](https://github.com/user-attachments/files/30595869/customer_analytics.pdf)
+
 This project is an interactive business intelligence dashboard developed with Microsoft Power BI to analyse sales, customers, products and geographical performance in an online retail business.
 
 The main objective of the project was to learn how to transform raw transactional data into meaningful business insights and develop a dashboard that could support data-driven decision-making.
