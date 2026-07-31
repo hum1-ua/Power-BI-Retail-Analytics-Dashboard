@@ -94,7 +94,7 @@ It includes:
 This allows the user to identify the most important markets and compare their commercial performance.
 
 ## Data Model
-
+![Product and Sales](/pages/model.png)
 The project follows a simple star-schema approach, separating transactional data from the date dimension.
 
 
