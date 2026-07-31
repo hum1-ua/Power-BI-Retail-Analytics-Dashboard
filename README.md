@@ -1,5 +1,4 @@
 # Power BI Retail Analytics Dashboard
-<img width="1668" height="946" alt="geographic_analytics" src="https://github.com/user-attachments/assets/28f6dc84-32c4-4384-ac85-b074b8f930ec" />
 
 ## Overview
 This project is an interactive business intelligence dashboard developed with Microsoft Power BI to analyse sales, customers, products and geographical performance in an online retail business.
@@ -10,7 +9,6 @@ The project uses the Online Retail II dataset, containing transactional data fro
 https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
 ## Project Objectives
-pages/customer_analytics-1.png
 The dashboard was designed to answer key business questions such as:
 
 - How are sales performing compared with the previous year?
@@ -28,6 +26,7 @@ The dashboard was designed to answer key business questions such as:
 The report is divided into four analytical areas.
 
 ### 1. Executive Summary
+![Executive Summary](pages/executive_summary-1.png)
 
 Provides a high-level overview of business performance through:
 
