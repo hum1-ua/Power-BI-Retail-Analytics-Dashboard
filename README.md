@@ -40,7 +40,7 @@ Provides a high-level overview of business performance through:
 This page is designed to provide management with a quick overview of the company's performance.
 
 ### 2. Customer Analytics
-
+![Product and Sales](/pages/customer_analytics-1.png)
 Focuses on customer behaviour and value.
 
 It includes:
@@ -62,7 +62,7 @@ The RFM segmentation helps classify customers according to:
 Customer groups include Champions, Loyal Customers, Potential Loyalists, New Customers, At Risk, Hibernating and other segments.
 
 ### 3. Product & Sales Analytics
-![Product and Sales](/pages/product_analytics.png)
+![Product and Sales](/pages/product_analytics-1.png)
 Analyses product performance and sales quality.
 
 The page includes:
