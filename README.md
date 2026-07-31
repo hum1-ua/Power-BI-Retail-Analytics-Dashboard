@@ -130,3 +130,24 @@ SUMX(
     'Fact_Sales',
     'Fact_Sales'[Quantity] * 'Fact_Sales'[Price]
 )
+```
+## Key Insights
+
+### Executive Summary
+- Sales dropped 3.4% YoY while orders fell more sharply (-12.9%), but Average Order Value rose 8.9%. This suggests the business is retaining fewer customers, but each purchase carries more value — pointing toward a retention-focused strategy rather than pure acquisition.
+- December shows a sharp drop compared to November, but this reflects an incomplete month in the dataset (data ends 09/12/2011), not an actual demand collapse.
+
+### Customer Analytics
+- 68.9% of customers are recurrent, a strong retention rate for an online retail business.
+- "Champions" is the largest segment (22.55%), but "Hibernating," "At Risk," and "Can't Lose Them" together account for almost 40% of the customer base — a clear opportunity for win-back campaigns.
+- The Orders vs Sales scatter plot shows a small group of high-order customers driving disproportionately high revenue, likely wholesale or B2B buyers rather than typical end consumers.
+
+### Product & Sales Analytics
+- The order return rate (22%) is far higher than the revenue return rate (7.34%), indicating that returns are concentrated in low-value orders rather than high-value purchases.
+- Shipping charges represent only 2.23% of total sales, a relatively low operating cost.
+- The Product Volume vs Revenue scatter shows a classic long-tail pattern: most products cluster in low volume/low revenue, while a handful of high-volume products drive a disproportionate share of income.
+
+### Geographic & Market Analytics
+- The United Kingdom dominates the business, accounting for the vast majority of sales and active customers — expected for a UK-based retailer, but it also signals a concentration risk.
+- Outside the UK, countries like the Netherlands, Australia, and Denmark show the highest Average Order Value (>$1,600), suggesting large but infrequent orders — likely wholesale/distributor buyers rather than individual consumers.
+- International sales represent 15.1% of total revenue across 43 countries, showing wide geographic reach but shallow penetration outside the domestic market.
