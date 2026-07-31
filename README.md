@@ -10,7 +10,7 @@ The project uses the Online Retail II dataset, containing transactional data fro
 https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
 ## Project Objectives
-
+pages/customer_analytics-1.png
 The dashboard was designed to answer key business questions such as:
 
 - How are sales performing compared with the previous year?
